@@ -35,7 +35,7 @@ const flightSchema = new Schema({
     timestamps: true
 })
 
-module.exports = mongoose.model('Flights', flightSchema);
+module.exports = mongoose.model('Flight', flightSchema);
 
 
 // maxlength and minlength: Take a guess :)
